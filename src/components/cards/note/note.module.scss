@@ -1,0 +1,48 @@
+.container
+{
+    display: grid;
+    width: 100%;
+    aspect-ratio: 4/5;
+    background-color: rgba(251, 235, 149, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    grid-template-rows: auto 35px;
+
+    .content
+    {
+        
+        p 
+        {
+            font-size: var(--fs-sm);
+            font-weight: var(--fw-normal);
+            line-height: 25px;
+            color: var(--black);
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .expanded
+        {
+            display: block;
+        }
+
+        button 
+        {
+            background-color: transparent;
+            color: var(--grey);
+            cursor: pointer;
+            text-transform: capitalize;
+            font-size: var(--fs-sm);
+        }
+    }
+
+    .footer 
+    {
+        font-size: var(--fs-sm);
+        color: var(--grey);
+    
+    }
+}

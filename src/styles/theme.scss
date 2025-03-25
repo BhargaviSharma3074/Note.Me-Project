@@ -1,0 +1,46 @@
+:root
+{
+    //Font Sizes
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 22px;
+    --fs-xxl: 24xl;
+    --fs-xxxl: 28px;
+    --fs-greet: 34px;
+    --fs-brand: 48px;
+    //Font Weight
+    --fw-light: 400;
+    --fw-normal: 500;
+    --fw-medium: 550;
+    --fw-bold: 600;
+    //Border Radius
+    --br-sm: 5px;
+    //Colors
+    --black: #3C3D43;
+    --white: #FFFFFF;
+    --cream-white: #FFFDFA;
+    --rose: #FDBAA3;
+    --red: #F7685C;
+    --green: #30C58D;
+    --grey: #808080;
+    --light-grey: #A8A8B3;
+    --loader: rgb(253, 186, 163, 40%);
+     --id1: rgba(251, 235, 149, 0.4);
+     --id2: rgba(151, 210, 188, 0.4);
+     --id3: rgba(253, 186, 163, 0.4);
+     --id4: rgba(182, 165, 203, 0.4);
+
+}
+
+.light
+{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.dark
+{
+    background-color: var(--black);
+    color: var(--white);
+}
